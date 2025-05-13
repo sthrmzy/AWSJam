@@ -1,0 +1,23 @@
+# 📋 Instruções para Executar e Obter os Findings
+
+1. Vá até o **AWS Console > Lambda**.
+2. Execute manualmente a função:  
+   `jam-validate-iam-policy-with-access-analyzer`
+   
+3. Após a execução, leia a saída da função Lambda — especialmente o conteúdo de **findings**. O output geralmente é um **JSON** contendo os problemas detectados, como no exemplo abaixo:
+
+```json
+{
+  "policyName": "jam-example-policy",
+  "findings": [
+    {
+      "findingType": "WARNING",
+      "issueCode": "WildcardOnlyResource",
+      "learnMoreLink": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-checks.html#wildcard-only-resource",
+      "detail": "This policy allows access to actions with resource '*'."
+    },
+    ...
+  ]
+}
+
+4. Após a leitura da saída, vá até IAM e edite a política que está citada na saída e especifique um ROLE para ela.
