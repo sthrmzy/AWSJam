@@ -8,6 +8,7 @@ O jogo para celular de carros de corrida da **Games Inc** é um dos populares jo
 - **event_time**: Data e hora em que os dados foram gerados pelo aplicativo móvel.
 
 ## Para recapitular, a arquitetura da plataforma de dados da Games Inc é mostrada abaixo.
+![overview](https://github.com/sthrmzy/AWSJam/blob/main/Crie%20uma%20tabela%20de%20classifica%C3%A7%C3%A3o%20de%20jogos%20em%20tempo%20real/Task%201/Overview.png)
 
 ## Gaming Inc Architecture
 
