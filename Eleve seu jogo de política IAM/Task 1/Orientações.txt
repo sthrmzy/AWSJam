@@ -1,0 +1,2 @@
+Neste desafio ele fala que o Lambda possui uma função chamada de "jam-validate-iam-policy-with-access-analyzer". Logo dentro da lacuna 
+#TODO Add the missing Access Analyzer API call <to_be_completed> é necessário substituir por validade_policy na lacuna < >
