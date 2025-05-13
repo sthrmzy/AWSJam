@@ -1,0 +1,29 @@
+Antes:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "iam:PassRole"
+            ],
+            "Resource": "arn:aws:iam::*:*",
+            "Effect": "Allow"
+        }
+    ]
+}
+
+Depois:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "iam:PassRole"
+            ],
+            "Resource": "arn:aws:iam::903026819180:role/aws_jams_lab_monitoring",
+            "Effect": "Allow"
+        }
+    ]
+}
