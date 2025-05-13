@@ -1,0 +1,17 @@
+Copiar o URI do seu S3 e logo depois ir em Amazon Comprehend
+Analysis Jobs> Create analysis job
+
+name = qualquer nome
+analysis type = sentiment
+language = english
+
+input data:
+S3 location: o URI do seu arquivo dentro do S3
+
+output data:
+S3 location: o URI do seu balde s3
+
+Acess permissions
+IAM role: Use an existing IAM role
+
+Role name: S3AcessRoleComprehend
