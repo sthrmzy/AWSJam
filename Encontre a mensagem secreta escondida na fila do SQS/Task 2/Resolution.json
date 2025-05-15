@@ -1,0 +1,10 @@
+{
+            "Action": [
+                "sqs:ReceiveMessage",
+				"sqs:GetQueueUrl"
+            ],
+            "Resource": [
+                "arn:aws:sqs:*:*:Jam-Challenge-Queue"
+            ],
+            "Effect": "Allow"
+        }
