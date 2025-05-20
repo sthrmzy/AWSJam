@@ -1,0 +1,14 @@
+Para resolver o desafio precisamos ir em 
+
+DynamoDB > Tables > CustTransactions > Exports and streams > Turn on DynamoDB stream details
+
+Após este passo vamos voltara para a função Lambda JAM_Lambda_Exec_Function_EDIT_THIS
+
+
+Configuration > Tiggers > Add trigger > 
+
+Trigger configuration > Trigger configuration
+
+DynamoDB table > arn:aws:dynamodb:us-west-2:370308395003:table/CustTransactions
+
+Mantenha todo resto como padrão e clique em Add
