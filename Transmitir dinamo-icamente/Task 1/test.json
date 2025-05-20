@@ -1,0 +1,18 @@
+{
+   "Records": [
+        {
+            "eventName": "INSERT",
+            "eventSource": "aws:dynamodb",
+            "dynamodb": {
+                "Keys": {
+                    "CustID": {
+                        "S": "task1test1record"
+                    },
+                    "TnValue": {
+                        "N": "250"
+                    }
+                }
+            }
+        }
+    ]
+}
