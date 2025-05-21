@@ -1,0 +1,18 @@
+Abra a tabela de rotas associada a PrivateSubnet-VPC1-AZ1 e verifique o destino da rota para 0.0.0.0/0.
+O ID do destino é a resposta.
+
+Para determinar a tabela de rotas para a sub-rede PrivateSubnet-VPC1-AZ1
+
+Abra o console do Amazon VPC em https://console.aws.amazon.com/vpc/
+
+No painel de navegação, selecione Sub-redes . Marque a caixa de seleção ao lado de PrivateSubnet-VPC1-AZ1. 
+Selecione a aba Tabela de Rotas para visualizar as rotas. 
+O destino 0.0.0.0/0 é a resposta.
+
+Observação:
+
+A rota padrão é 0.0.0.0/0. É uma rota abrangente, pois adicionar rotas para cada destino na internet seria trabalhoso. Consulte Prioridade de Rota para saber mais.
+
+Você pode verificar o gateway padrão da instância EC2 na VPC-1 emitindo ip route showo comando após a conexão . 
+Este endereço IP (10.0.0.1) é o primeiro IP da sub-rede onde a instância foi iniciada. 
+É também uma abstração da tabela de rotas associada à sub-rede. Portanto, tecnicamente, o tráfego do servidor EC2 é enviado primeiro para a tabela de rotas associada à sub-rede e segue as rotas configuradas nela.
