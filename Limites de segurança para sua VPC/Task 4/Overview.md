@@ -1,3 +1,5 @@
+![Overview](https://github.com/sthrmzy/AWSJam/blob/main/Limites%20de%20seguran%C3%A7a%20para%20sua%20VPC/Task%204/Task4.png)
+
 # Configuração de ACLs de Rede - Desafio Jam!
 
 ## 📘 Fundo
