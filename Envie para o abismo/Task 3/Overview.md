@@ -1,44 +1,25 @@
-# 🌐 Understanding Egress-VPC Routing to the Internet
+# 🌐 Fundo  
+Agora que você sabe como o tráfego chegou ao Transit Gateway e saiu dele, você vai querer entender o que acontece além disso.
 
 ---
 
-## 📘 **Background**
+## 🎯 Sua tarefa  
+Até agora, rastreamos o tráfego até a VPC de saída. Sua tarefa é descobrir como a VPC de saída ajuda esse tráfego (da VPC-1) a chegar à internet?
 
-Now that you know how the traffic reached the **Transit Gateway** and exited it,  
-you'll want to understand **what happens beyond that**.
-
----
-
-## 🎯 **Your Task**
-
-So far, we have traced the traffic up to the **Egress VPC**.
-
-🔍 Your task is to **find out how the Egress VPC helps the traffic (from VPC-1) reach the Internet**.
-
-- The traffic from **VPC-1** was routed to the **Egress VPC** via the **Transit Gateway**.
-- **What happens next?**
-- Your goal is to identify the **AWS Resource** to which this traffic is routed **from the Egress VPC**.
-
-✍️ **Enter the ID of this AWS Resource** (the next routing hop) in the **answer field**.
+O tráfego da VPC-1 foi roteado para a Egress-VPC por meio do Gateway de Trânsito. O que acontece em seguida? Insira o ID do recurso da AWS para o qual o tráfego é roteado.
 
 ---
 
-## 🏗️ **Architecture**
+## 🏗️ Arquitetura  
 
-📌 *Refer to the provided architecture diagram (not included here) for visual assistance.*
-
----
-
-## 🛠️ **Services You Should Use**
-
-- **Amazon VPC**
+![Overview](https://github.com/sthrmzy/AWSJam/blob/main/Envie%20para%20o%20abismo/Task%203/Task3_Image.png)
 
 ---
 
-## ✅ **Task Validation**
-
-Enter the **Resource ID** of the **next routing hop** into the answer field for validation.
-
-This is typically the **Internet Gateway ID (igw-xxxxxxxx)** or a **NAT Gateway ID (nat-xxxxxxxx)**, depending on the setup of the **Egress VPC**.
+## 🛠️ Serviços que você deve usar  
+Amazon VPC
 
 ---
+
+## ✅ Validação de Tarefas  
+Insira o ID do recurso do próximo salto de roteamento no campo de resposta para validação da tarefa.
