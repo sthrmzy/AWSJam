@@ -1,3 +1,5 @@
+![Overview](https://github.com/sthrmzy/AWSJam/blob/main/Limites%20de%20seguran%C3%A7a%20para%20sua%20VPC/Task%203/Task3.png)
+
 # 🔧 Desafio: Criar e Associar Network ACLs por Camada
 
 ## 🎯 Objetivo
