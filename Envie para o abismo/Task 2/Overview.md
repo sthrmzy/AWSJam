@@ -42,7 +42,7 @@ Para visualizar **tabelas de rotas do gateway de trânsito** usando o console:
 
 ## 🏗️ **Arquitetura**
 
-📌 *Figura ilustrativa (não incluída aqui)*
+![📌](https://github.com/sthrmzy/AWSJam/blob/main/Envie%20para%20o%20abismo/Task%202/Task2_Image.png)
 
 ---
 
