@@ -1,0 +1,3 @@
+Você se juntou recentemente a uma nova equipe como Arquiteto de Soluções (SA). Sua equipe está migrando o fluxo de trabalho de registro de dispositivos para o modo sem servidor. Como Arquiteto de Soluções da AWS da equipe, você tem a tarefa de configurar uma arquitetura robusta orientada a eventos para a plataforma de aplicativos da sua empresa. Você deseja usar o Amazon EventBridge para rotear eventos entre serviços do seu aplicativo, como gerenciamento de inventário, registros de dispositivos, etc.
+
+O aplicativo agora está equipado com novo barramento de eventos personalizado, regras eventbridge,
