@@ -13,10 +13,10 @@ Você deve editar o bot no **Amazon Lex** e fazer a seguinte alteração:
 ### Fluxo de Trabalho
 
 1. **ANTES**: O bot atualmente usa o nome **Pizzaria da Francesca**.
-    ![Imagem Antes](link-para-imagem-antes)  <!-- Substitua o link para a imagem antes -->
+    ![Imagem Antes](https://github.com/sthrmzy/AWSJam/blob/main/Vamos%20pedir%20umas%20pizzas!!/Task%201/T1_before.png)  <!-- Substitua o link para a imagem antes -->
 
 2. **DEPOIS**: Após as alterações, o bot irá exibir **Pizza Hot**.
-    ![Imagem Depois](link-para-imagem-depois)  <!-- Substitua o link para a imagem depois -->
+    ![Imagem Depois](https://github.com/sthrmzy/AWSJam/blob/main/Vamos%20pedir%20umas%20pizzas!!/Task%201/T1_after.png)  <!-- Substitua o link para a imagem depois -->
 
 ## Passos para Alteração
 
