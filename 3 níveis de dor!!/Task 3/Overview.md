@@ -14,7 +14,7 @@ No entanto, ao atualizar o endpoint do balanceador de carga, você ainda não co
 
 A **arquitetura de referência** está abaixo.
 
-*(Abrir imagem em nova aba)*
+![imagem](https://github.com/sthrmzy/AWSJam/blob/main/3%20n%C3%ADveis%20de%20dor!!/3TiersofPainJamChallenge.png)
 
 Você pergunta ao **Engenheiro Júnior** sobre os **grupos de segurança**, o que eles criaram e atribuíram a quais recursos?
 
