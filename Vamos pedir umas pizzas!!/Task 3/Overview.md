@@ -51,7 +51,7 @@ A Pizzaria da Francesca foi renomeada para **Pizza Hot**, mas o bot de bate-papo
 
 ## Antes (Imagem de exemplo da interface do console do Amazon Lex)
 
-![Antes](imagem_exemplo_antes.png)  
+![Antes](https://github.com/sthrmzy/AWSJam/blob/main/Vamos%20pedir%20umas%20pizzas!!/Task%203/T3.png)  
 
 ---
 
