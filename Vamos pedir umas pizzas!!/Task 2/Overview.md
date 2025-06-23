@@ -55,11 +55,11 @@ A **Pizzaria da Francesca** agora é **Pizza Hot**, mas o bot de bate-papo ainda
 
 **ANTES:**
 - **Valor do Slot:** Pizzaria da Francesca  
-  ![Imagem Antes](link-para-imagem-antes) <!-- Substitua o link da imagem "ANTES" -->
+  ![Imagem Antes](https://github.com/sthrmzy/AWSJam/blob/main/Vamos%20pedir%20umas%20pizzas!!/Task%202/T2_before.png) <!-- Substitua o link da imagem "ANTES" -->
 
 **DEPOIS:**
 - **Valor do Slot:** Pizza Hot  
-  ![Imagem Depois](link-para-imagem-depois) <!-- Substitua o link da imagem "DEPOIS" -->
+  ![Imagem Depois](https://github.com/sthrmzy/AWSJam/blob/main/Vamos%20pedir%20umas%20pizzas!!/Task%202/T2_after.png) <!-- Substitua o link da imagem "DEPOIS" -->
 
 ### 7. Salve a Intenção
 - Após as alterações, clique em **Salvar intenção** para salvar as mudanças.
